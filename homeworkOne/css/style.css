@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&family=Inter:wght@300;400;500&display=swap");
+
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+header {
+  font-family: "Orbitron", sans-serif;
+  text-align: center;
+  color: #333333;
+  font-size: 0.5rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  transition: background-color 0.6s ease;
+  cursor: pointer;
+}
+
+main:hover {
+  background-color: #121212;
+}
+
+#card {
+  background-color: transparent;
+  padding: 0;
+  border-radius: 20px 20px 20px 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: auto;
+  border: 2px solid #00f7ff;
+}
+
+.profile-image {
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #00f7ff;
+  transition: background-color 0.5s ease;
+}
+
+.profile-image:hover {
+  background-color: #faff00;
+}
+
+.profile-image img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+.profile-info {
+  width: auto;
+  min-height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: black;
+  padding: 20px;
+  border-radius: 0;
+  transition: background-color 0.5s ease, color 0.5s ease;
+  color: white;
+}
+
+.profile-info:hover {
+  background-color: #00f7ff;
+  color: white;
+}
+
+.profile-info h3 {
+  margin: 0;
+  font-size: 0.7rem;
+}
+
+.profile-info b {
+  font-size: 0.7rem;
+  line-height: 1rem;
+  color: #00f7ff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: 800;
+}
+
+.profile-info a {
+  margin-top: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+  transition: font-size 0.5s ease, line-height 0.5s ease;
+}
+
+.profile-info:hover p,
+.profile-info:hover a,
+.profile-info:hover b,
+.profile-info:hover h3 {
+  color: black;
+}
+
+.profile-info a:hover {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: #ff00ff;
+}
+
+.profile-info p {
+  margin: 5px 0;
+  font-size: 0.7rem;
+}
+
+footer {
+  font-family: "Orbitron", sans-serif;
+  text-align: center;
+  font-size: 0.5rem;
+  color: #333333;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
