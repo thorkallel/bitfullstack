@@ -1,0 +1,70 @@
+body {
+  background-color: #f9f9f9;
+  color: #333;
+  font-family: "Lato", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  background: radial-gradient(circle, #363bb0, #171647);
+  color: white;
+}
+
+header nav {
+  border-radius: 10px;
+}
+
+header nav a.nav-link {
+  color: #f0c469;
+}
+
+header img {
+  width: 100%;
+  max-width: 150px;
+}
+
+main img {
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 1em 0;
+}
+
+footer {
+  background-color: #171647;
+  font-size: 0.8rem;
+  color: white;
+}
+
+footer h5 {
+  text-decoration: underline;
+  font-size: 1rem;
+}
+
+h1 {
+  font-family: "Allura", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #363bb0;
+}
+
+h1:after {
+  content: "";
+  display: block;
+  width: 10%;
+  height: 2px;
+  background-color: #f0c469;
+  margin: 0 auto;
+}
+
+.allura-regular {
+  font-family: "Allura", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.card {
+  background: linear-gradient(to bottom, #ffffff00, #f2dfbd50);
+  border: none;
+}
