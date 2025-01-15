@@ -1,0 +1,96 @@
+/* Variables globales */
+:root {
+  --color-primario: #3498db;
+  --color-secundario: #2ecc71;
+  --color-texto: #333;
+}
+
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--color-texto);
+  padding: 0 0 100px;
+}
+
+/* Estilos del encabezado */
+header {
+  background-color: var(--color-primario);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 1rem 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: var(--color-primario);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.item {
+  border: solid 1px black;
+  margin-bottom: 3px;
+  border-radius: 5px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  padding: 10px;
+}
+
+.nombre,
+.apellido {
+  display: flex;
+  flex-direction: row;
+}
+
+div#milogin {
+  background: #2196f3;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  padding: 29px;
+  color: white;
+  border-radius: 17px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.form-group_search {
+  width: 100%;
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  justify-content: flex-end;
+}
